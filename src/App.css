@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.main {
+  width: 20%;
+  background-color: rgb(240, 209, 172);
+  text-align: center;
+  justify-content: center;
+  margin-left: 37%;
+  margin-top: 10%;
+}
+
+.storeddata {
+  text-align: justify;
+  display: inline;
+}
+
+.button {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 92%;
+}
+
+.todo-maping {
+  width: 17%;
+  margin: 2%;
+  display: inline-block;
+}
+
+.head {
+
+  padding-bottom: 10%;
+
+}
+
+.form1 {
+  border-radius: 10px solid black;
+  margin-top: 2%;
+  width: 35%;
+  margin-left: 8%;
+  padding-bottom: 10%;
+  padding-top: 3%
+}
+
+.container {
+  width: 600px;
+}
+
+.container1 {
+  width: 600px;
+}
+
+.myContainter {
+
+  flex-wrap: nowrap;
+  flex-direction: row;
+  flex: 1 1 0px;
+}
+
+.myDatePicker {
+  width: 100%;
+}
